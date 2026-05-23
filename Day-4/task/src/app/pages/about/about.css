@@ -1,0 +1,28 @@
+﻿.about-page {
+  display: grid;
+  gap: 1rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.about-page h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+}
+
+.about-page p,
+.about-page li {
+  color: #475569;
+  line-height: 1.75;
+}
+
+.about-page ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.about-page li {
+  margin-bottom: 0.7rem;
+}

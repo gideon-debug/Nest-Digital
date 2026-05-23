@@ -1,0 +1,15 @@
+<div class="container text-center">
+  <div class="row">
+
+    @for(item of data; track item.id){
+      <div class="col">
+        <app-card [product]="item"></app-card>
+      </div>
+    }
+    @empty {
+        <div class="col">
+          <p>No products available.</p>
+        </div>
+      }
+  </div>
+</div>

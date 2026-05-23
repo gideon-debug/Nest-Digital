@@ -1,0 +1,62 @@
+.carousel{
+    margin-top: 40px;
+    border-radius: 25px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.carousel img{
+    height: 650px;
+    object-fit: cover;
+    filter: brightness(70%);
+    transition: 0.5s;
+}
+
+.carousel img:hover{
+    transform: scale(1.03);
+}
+
+.carousel-caption{
+    bottom: 80px;
+    background: rgba(0,0,0,0.5);
+    padding: 25px;
+    border-radius: 20px;
+    backdrop-filter: blur(8px);
+}
+
+.carousel-caption h5{
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-shadow: 0 0 15px rgba(255,255,255,0.8);
+}
+
+.carousel-caption p{
+    font-size: 18px;
+    color: #dcdcdc;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+    background-color: rgba(0,0,0,0.6);
+    padding: 25px;
+    border-radius: 50%;
+}
+
+.carousel-indicators button{
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 50%;
+    background-color: white !important;
+}
+
+.carousel-indicators .active{
+    background-color: #00f7ff !important;
+    transform: scale(1.2);
+}
+
+body{
+    background: linear-gradient(135deg,#111,#000,#1a1a1a);
+}

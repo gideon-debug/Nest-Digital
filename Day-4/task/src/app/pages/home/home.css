@@ -1,0 +1,50 @@
+﻿.home-hero {
+  display: grid;
+  gap: 1.5rem;
+}
+
+.hero-text {
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.hero-text h1 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+.hero-text p {
+  margin: 0;
+  line-height: 1.7;
+  color: #4b5563;
+}
+
+.carousel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.carousel-card {
+  background: #111827;
+  color: #f9fafb;
+  border-radius: 1rem;
+  padding: 1.25rem;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.carousel-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.3rem;
+}
+
+.carousel-card p {
+  margin: 0;
+  line-height: 1.65;
+  opacity: 0.92;
+}

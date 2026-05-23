@@ -1,0 +1,27 @@
+﻿.product-page {
+  display: grid;
+  gap: 1rem;
+  background: #ffffff;
+  border-radius: 1rem;
+  padding: 1.75rem;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);
+}
+
+.product-page h1 {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 2.5rem);
+}
+
+.product-page p {
+  margin: 0;
+  color: #475569;
+  line-height: 1.75;
+}
+
+.placeholder {
+  background: #f8fafc;
+  border: 1px dashed #cbd5e1;
+  color: #334155;
+  padding: 1rem;
+  border-radius: 0.85rem;
+}
