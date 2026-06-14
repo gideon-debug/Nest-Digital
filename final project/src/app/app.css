@@ -1,0 +1,4 @@
+.page-shell {
+  min-height: calc(100vh - 72px);
+  background-color: #f4f7f6;
+}

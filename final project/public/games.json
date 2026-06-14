@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "name": "The Legend of Zelda: Breath of the Wild",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co2n7b.jpg",
+    "rating": 4.5,
+    "platforms": [{"platform": {"id": 1, "name": "Nintendo Switch"}}, {"platform": {"id": 2, "name": "Wii U"}}],
+    "genres": [{"id": 1, "name": "Action"}, {"id": 2, "name": "Adventure"}],
+    "description_raw": "The Legend of Zelda: Breath of the Wild is a masterpiece of open-world game design.",
+    "released": "2017-03-03",
+    "price": 59.99
+  },
+  {
+    "id": 2,
+    "name": "Elden Ring",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co6y0e.jpg",
+    "rating": 4.4,
+    "platforms": [{"platform": {"id": 3, "name": "PC"}}, {"platform": {"id": 4, "name": "PlayStation 5"}}, {"platform": {"id": 5, "name": "Xbox Series X"}}],
+    "genres": [{"id": 1, "name": "Action"}],
+    "description_raw": "Elden Ring is an action role-playing game developed by FromSoftware.",
+    "released": "2022-02-25",
+    "price": 69.99
+  },
+  {
+    "id": 3,
+    "name": "Cyberpunk 2077",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co8xjh.jpg",
+    "rating": 3.8,
+    "platforms": [{"platform": {"id": 3, "name": "PC"}}, {"platform": {"id": 4, "name": "PlayStation 5"}}, {"platform": {"id": 5, "name": "Xbox Series X"}}],
+    "genres": [{"id": 3, "name": "RPG"}, {"id": 4, "name": "Sci-Fi"}],
+    "description_raw": "An immersive sim set in Night City, a megalopolis obsessed with power, glamour and body modification.",
+    "released": "2020-12-10",
+    "price": 49.99
+  },
+  {
+    "id": 4,
+    "name": "Hogwarts Legacy",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co4e0l.jpg",
+    "rating": 4.1,
+    "platforms": [{"platform": {"id": 3, "name": "PC"}}, {"platform": {"id": 4, "name": "PlayStation 5"}}, {"platform": {"id": 5, "name": "Xbox Series X"}}],
+    "genres": [{"id": 1, "name": "Action"}, {"id": 3, "name": "RPG"}],
+    "description_raw": "Hogwarts Legacy is an open-world action RPG set in the world first introduced in the Harry Potter books.",
+    "released": "2023-02-10",
+    "price": 59.99
+  },
+  {
+    "id": 5,
+    "name": "Starfield",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5xms.jpg",
+    "rating": 4.0,
+    "platforms": [{"platform": {"id": 5, "name": "Xbox Series X"}}, {"platform": {"id": 3, "name": "PC"}}],
+    "genres": [{"id": 3, "name": "RPG"}, {"id": 4, "name": "Sci-Fi"}],
+    "description_raw": "Starfield is the first new universe in 25 years from Bethesda Game Studios, the award-winning creators of The Elder Scrolls V: Skyrim and Fallout 4.",
+    "released": "2023-09-06",
+    "price": 69.99
+  },
+  {
+    "id": 6,
+    "name": "Baldur's Gate 3",
+    "background_image": "https://images.igdb.com/igdb/image/upload/t_cover_big/co5jy2.jpg",
+    "rating": 4.6,
+    "platforms": [{"platform": {"id": 3, "name": "PC"}}, {"platform": {"id": 4, "name": "PlayStation 5"}}],
+    "genres": [{"id": 3, "name": "RPG"}],
+    "description_raw": "Gather your party, and return to the Forgotten Realms in a tale of fellowship and betrayal, sacrifice and survival, and the lure of absolute power.",
+    "released": "2023-08-03",
+    "price": 59.99
+  }
+]
